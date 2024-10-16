@@ -1,4 +1,4 @@
-Este repositório contém testes automatizados end-to-end para a aplicação mobile da EBAC. ✅ Os testes cobrem fluxos críticos como cadastro, login e navegação, utilizando WebDriverIO e gerando relatórios detalhados com Allure Reports.
+## Este repositório contém testes automatizados end-to-end para a aplicação mobile da EBAC. ✅ Os testes cobrem fluxos críticos como cadastro, login e navegação, utilizando WebDriverIO e gerando relatórios detalhados com Allure Reports.
 
 ## O que Tem Aqui
 - **Testes:** Scripts que automatizam os fluxos críticos da aplicação.
