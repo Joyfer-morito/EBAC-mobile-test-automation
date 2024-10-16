@@ -12,9 +12,9 @@
 
 ## Como Usar
 - **Clone o repositório:**
-git clone https://github.com/seuusuario/ebac-mobile-testing.git
+git clone 
 - **Entre na pasta do projeto:**
-- **cd ebac-mobile-testing**
+cd ebac-mobile-testing
 - **Instale as dependências:**
 npm install
 - **Execute os testes:**
