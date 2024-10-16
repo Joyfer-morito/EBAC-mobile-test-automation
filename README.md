@@ -1,29 +1,17 @@
-## Este repositório contém testes automatizados end-to-end para a aplicação mobile da EBAC. Os testes cobrem fluxos críticos como cadastro, login e navegação, utilizando WebDriverIO e gerando relatórios detalhados com Allure Reports.
-
 ## O que Tem Aqui
-- **Testes:** Scripts que automatizam os fluxos críticos da aplicação.
-- **Relatórios:** Relatórios gerados pelo Allure, oferecendo uma visão detalhada dos resultados dos testes.
-- **Configurações:** Arquivos de configuração para o ambiente de testes.
-  
+- **app**: Diretório com a aplicação em teste.
+- **test**: Diretório com os testes automatizados escritos em WebDriverIO.
+- **allure-results** e **allure-report**: Diretórios com os resultados dos testes e relatórios gerados pelo Allure.
+- **wdio.conf.js**: Arquivo de configuração do WebDriverIO.
+- **package.json** e **package-lock.json**: Arquivos de configuração das dependências do projeto.
+
 ## O que Você Precisa
-- **Node.js** (versão 12 ou mais recente).
-- **WebDriverIO** instalado como dependência do projeto.
-- **Allure** instalado para geração de relatórios.
+- **WebDriverIO**: Framework de automação para testes end-to-end.
+- **Allure Reports**: Ferramenta para gerar relatórios detalhados dos testes.
 
 ## Como Usar
-- **Clone o repositório:**
-git clone 
-- **Entre na pasta do projeto:**
-cd ebac-mobile-testing
-- **Instale as dependências:**
-npm install
-- **Execute os testes:**
-npm test
-- **Gere os relatórios com Allure:**
-allure generate
-
-## Contribuição
-Se você quiser ajudar, fique à vontade para abrir sugestões ou fazer mudanças!
-
-## Licença
-Este projeto está sob a MIT License.
+1. Clone o repositório: `git clone`
+2. Entre na pasta do projeto: `cd nome-do-repositorio`
+3. Instale as dependências: `npm install`
+4. Execute os testes: `npx wdio run wdio.conf.js`
+5. Gere o relatório Allure: `allure generate allure-results --clean -o allure-report`
