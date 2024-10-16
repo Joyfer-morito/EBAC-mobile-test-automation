@@ -6,9 +6,9 @@ Este repositório contém testes automatizados end-to-end para a aplicação mob
 - **Configurações:** Arquivos de configuração para o ambiente de testes.
   
 ## O que Você Precisa
-Node.js (versão 12 ou mais recente).
-WebDriverIO instalado como dependência do projeto.
-Allure instalado para geração de relatórios.
+- **Node.js** (versão 12 ou mais recente).
+- **WebDriverIO** instalado como dependência do projeto.
+- **Allure** instalado para geração de relatórios.
 
 ## Como Usar
 - **Clone o repositório:**
