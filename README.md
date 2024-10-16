@@ -12,7 +12,7 @@
 
 ## Como Usar
 - **Clone o repositório:**
-- **git clone https://github.com/seuusuario/ebac-mobile-testing.git**
+git clone https://github.com/seuusuario/ebac-mobile-testing.git
 - **Entre na pasta do projeto:**
 - **cd ebac-mobile-testing**
 - **Instale as dependências:**
